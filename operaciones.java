@@ -24,9 +24,25 @@ public class operaciones {
 		System.out.println("3.- cálculo de la multiplicación");
 		System.out.println("0.- salir de la aplicación");
 		System.out.println("\nIntroduzca la opción.");
+		opcion = sc.nextInt();
 		
 		
-
+		switch(opcion) {
+		case 1: 
+			System.out.println("La suma de los dos números es: " + (num1 + num2)); 
+			break;
+		case 2: 
+			System.out.println("La resta de los dos números es: " + (num1 - num2));  
+			break;                
+		case 3: 
+			System.out.println("La multiplicación de los dos números es: " + (num1 * num2));			
+			break;
+		case 0:
+			return;
+		default:
+			System.out.println("Opción incorrecta");
+		}
+		
 	}
 
 }
