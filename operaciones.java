@@ -42,6 +42,7 @@ public class operaciones {
 		default:
 			System.out.println("Opción incorrecta");
 		}
+		System.out.println("Añadido en GitHub");
 		
 	}
 
